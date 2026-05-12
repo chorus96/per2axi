@@ -4,3 +4,5 @@
 build
 /Bender.local
 /Bender.lock
+
+obj_dir/
