@@ -9,3 +9,7 @@ sources:
   - src/per2axi_req_channel.sv
   - src/per2axi_res_channel.sv
   - src/per2axi.sv
+  - target: simulation
+    files:
+      - sim/axi4_mm_slave_model.sv
+      - sim/tb_per2axi.sv
