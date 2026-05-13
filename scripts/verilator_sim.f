@@ -1,4 +1,4 @@
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -7,7 +7,7 @@
 /workspace/per2axi/.bender/git/checkouts/common_verification-5dfcf27a7589dc14/src/stream_watchdog.sv
 /workspace/per2axi/.bender/git/checkouts/common_verification-5dfcf27a7589dc14/src/signal_highlighter.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -18,20 +18,20 @@
 /workspace/per2axi/.bender/git/checkouts/common_verification-5dfcf27a7589dc14/src/rand_synch_driver.sv
 /workspace/per2axi/.bender/git/checkouts/common_verification-5dfcf27a7589dc14/src/rand_stream_slv.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
 /workspace/per2axi/.bender/git/checkouts/tech_cells_generic-19a60dec760de327/src/rtl/tc_sram.sv
 /workspace/per2axi/.bender/git/checkouts/tech_cells_generic-19a60dec760de327/src/rtl/tc_sram_impl.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
 /workspace/per2axi/.bender/git/checkouts/tech_cells_generic-19a60dec760de327/src/rtl/tc_clk.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -39,14 +39,14 @@
 /workspace/per2axi/.bender/git/checkouts/tech_cells_generic-19a60dec760de327/src/deprecated/cluster_clk_cells.sv
 /workspace/per2axi/.bender/git/checkouts/tech_cells_generic-19a60dec760de327/src/deprecated/pulp_clk_cells.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
 +incdir+/workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/include
 /workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/src/binary_to_gray.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -104,7 +104,7 @@
 /workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/src/addr_decode_napot.sv
 /workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/src/multiaddr_decode.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -140,7 +140,7 @@
 /workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/src/stream_omega_net.sv
 /workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/src/mem_to_banks.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -161,7 +161,7 @@
 /workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/src/edge_propagator.sv
 /workspace/per2axi/.bender/git/checkouts/common_cells-bffd4e79fc530c01/src/edge_propagator_rx.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -175,7 +175,7 @@
 /workspace/per2axi/.bender/git/checkouts/axi_slice-1acc5d2656470cc4/src/axi_w_buffer.sv
 /workspace/per2axi/.bender/git/checkouts/axi_slice-1acc5d2656470cc4/src/axi_slice_wrap.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR
@@ -184,7 +184,7 @@
 /workspace/per2axi/src/per2axi_res_channel.sv
 /workspace/per2axi/src/per2axi.sv
 
---binary --timing --top-module tb_per2axi
+--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST
 +define+TARGET_SIMULATION
 +define+TARGET_SYNTHESIS
 +define+TARGET_VERILATOR

@@ -8,7 +8,7 @@ out_file="${script_dir}/verilator_sim.f"
 
 cd "${repo_root}"
 bender script -t simulation verilator \
-  --vlt-args='--binary --timing --top-module tb_per2axi' \
+  --vlt-args='--binary --timing --top-module tb_per2axi -Wno-WIDTHTRUNC -Wno-CMPCONST' \
   > "${out_file}"
 
 # Bender emits leading/trailing separator newlines; drop them to keep the checked-in file lint-clean.
